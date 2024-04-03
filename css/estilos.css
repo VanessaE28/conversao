@@ -1,0 +1,60 @@
+body{
+    height: 100vh;
+    background: linear-gradient(blue, cyan, gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.central{
+    width: 400px;
+    height: 150px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.central input{
+    width: 300px;
+    height: 25px;
+    background: silver;
+    color: white;
+    /* border-bottom: 2px solid green; */
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+.central input:focus{
+    background: rgb(68, 68, 68);
+}
+
+.central #calcular{
+    background: darkcyan;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition:0.4s;
+    
+}
+
+.central #calcular:hover{
+    background: darkblue;
+    border-radius: 12px;
+}
+
+.central #resultado{
+    color: darkblue;
+    font-size: 20px;
+    font-weight: bold;
+}
